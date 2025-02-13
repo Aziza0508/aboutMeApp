@@ -13,6 +13,11 @@
 		87DA4B8E2D59B1F50042B0EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DA4B8C2D59B1F50042B0EC /* Main.storyboard */; };
 		87DA4B902D59B1F80042B0EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87DA4B8F2D59B1F80042B0EC /* Assets.xcassets */; };
 		87DA4B932D59B1F80042B0EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DA4B912D59B1F80042B0EC /* LaunchScreen.storyboard */; };
+		87DA4B9D2D59ECBF0042B0EC /* DreamsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DA4B9C2D59ECBF0042B0EC /* DreamsTableViewController.swift */; };
+		87DA4B9F2D59ED4F0042B0EC /* HobbiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DA4B9E2D59ED4F0042B0EC /* HobbiesTableViewController.swift */; };
+		87DA4BA12D59EE140042B0EC /* Hobby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DA4BA02D59EE140042B0EC /* Hobby.swift */; };
+		87DA4BA32D5B4D440042B0EC /* Dreams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DA4BA22D5B4D440042B0EC /* Dreams.swift */; };
+		87DA4BA52D5B5F060042B0EC /* DreamDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DA4BA42D5B5F060042B0EC /* DreamDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		87DA4B8F2D59B1F80042B0EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87DA4B922D59B1F80042B0EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87DA4B942D59B1F80042B0EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87DA4B9C2D59ECBF0042B0EC /* DreamsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamsTableViewController.swift; sourceTree = "<group>"; };
+		87DA4B9E2D59ED4F0042B0EC /* HobbiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbiesTableViewController.swift; sourceTree = "<group>"; };
+		87DA4BA02D59EE140042B0EC /* Hobby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hobby.swift; sourceTree = "<group>"; };
+		87DA4BA22D5B4D440042B0EC /* Dreams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dreams.swift; sourceTree = "<group>"; };
+		87DA4BA42D5B5F060042B0EC /* DreamDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				87DA4B882D59B1F50042B0EC /* SceneDelegate.swift */,
 				87DA4B8A2D59B1F50042B0EC /* ViewController.swift */,
 				87DA4B8C2D59B1F50042B0EC /* Main.storyboard */,
+				87DA4BA02D59EE140042B0EC /* Hobby.swift */,
+				87DA4B9E2D59ED4F0042B0EC /* HobbiesTableViewController.swift */,
+				87DA4BA22D5B4D440042B0EC /* Dreams.swift */,
+				87DA4B9C2D59ECBF0042B0EC /* DreamsTableViewController.swift */,
+				87DA4BA42D5B5F060042B0EC /* DreamDetailsViewController.swift */,
 				87DA4B8F2D59B1F80042B0EC /* Assets.xcassets */,
 				87DA4B912D59B1F80042B0EC /* LaunchScreen.storyboard */,
 				87DA4B942D59B1F80042B0EC /* Info.plist */,
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87DA4BA12D59EE140042B0EC /* Hobby.swift in Sources */,
+				87DA4BA32D5B4D440042B0EC /* Dreams.swift in Sources */,
+				87DA4BA52D5B5F060042B0EC /* DreamDetailsViewController.swift in Sources */,
 				87DA4B8B2D59B1F50042B0EC /* ViewController.swift in Sources */,
+				87DA4B9F2D59ED4F0042B0EC /* HobbiesTableViewController.swift in Sources */,
 				87DA4B872D59B1F50042B0EC /* AppDelegate.swift in Sources */,
+				87DA4B9D2D59ECBF0042B0EC /* DreamsTableViewController.swift in Sources */,
 				87DA4B892D59B1F50042B0EC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,8 +318,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,8 +346,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
